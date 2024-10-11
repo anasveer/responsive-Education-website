@@ -1,213 +1,99 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Responsive Education website</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
-  <header></header>
-    <div class="navbar">
-      <div class="nav-logo border">
-        <div class="logo"></div>
-      </div>
 
-      <div class="nav-adress border">
-        <p class="add-first">Deliver to</p>
-        <div class="add-icon">
-          <i class="fa-solid fa-location-dot"></i>
-          <p class="add-second">India</p>
-        </div>
-      </div>
+  <nav class="navbar background h-nav-resp">
+    <ul class="nav-list v-class-resp">
+      <div class="logo"><img src="laptop.jfif" alt="logo"></div>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ul>
 
-      <div class="nav-search">
-        <select class="search-select">
-          <option>All</option>
-        </select>
-        <input placeholder="Search Amazon" class="search-input">
-        <div class="search-icon">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-      </div>
-
-      <div class="nav-singin border">
-        <p><span>Hello, sign in</span></p>
-        <p class="nav-second">Account & List</p>
-      </div>
-
-      <div class="nav-return border">
-        <p><span>Returns</span></p>
-        <p class="nav-second">& orders</p>
-      </div> 
-      <div class="nav-cart border">
-        <i class="fa-solid fa-cart-shopping"></i>
-        Cart
-      </div>
-      </div>
-      <div class="panel">
-        <div class="panel-all">
-          <i class="fa-solid fa-bars"></i>
-          All
-        </div>
-        <div class="panel-ops">
-          <p>Today's Deals</p>
-          <p>Customer Services</p>
-          <p>Registry</p>
-          <p>Gift Cards</p>
-          <p>Sell</p>
-        </div>
-        <div class="panel-deals">
-          <p>Shop deals in Electronics</p>
-        </div>
-      </div>
-    
-  </header>
-  <div class="hero-section">
-    <div class="hero-msg">
-      <p>You are on amazon.com.You can also shop on Amazon Pakistan for millions of products with fast local delivery. <a>click here go to amazon.in</a></p>
+    <div class="right-nav v-class-resp">
+      <input type="text" name="search" id="search">
+      <button class="btn btn-sm">Search</button>
     </div>
-  </div>
-  <div class="shop-section">
-    <div class="box1 box">
-<div class="box-content">
-  <h2>toys</h2>
-  <div class="box-img" style="background-image: url('Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg');"></div>
-<p>See more</p>
-</div>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
     </div>
+  </nav>
 
-    <div class="box2 box">
-      <div class="box-content">
-        <h2>decks</h2>
-        <div class="box-img" style="background-image: url('Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg');"></div>
-      <p>See more</p>
+  <section class="background firstsection">
+    <div class="box-main">
+      <div class="firsthalf">
+        <p class="text-big">The Future of Education is here</p>
+        <p class="text-small">In this world of 7 billions people we need to educate all of them. This is the future of an educate world and we are proud to say that the future of education is here </p>
+        <div class="button">
+          <button class="btn">Subscribe</button>
+          <button class="btn">Watch video</button>
+        </div>
       </div>
+      <div class="secondhalf">
+        <img src="laptop.jfif" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="paras">
+    <p class="sectionTag text-big">Education in Pakistan</p> 
+    <p class="sectionsubTag text-small">Education in Pakistan is overseen by the Federal Ministry of Education and the provincial governments, while the federal government mostly assists in curriculum development, accreditation and the financing of research and development.Article 25-A of the Constitution of Pakistan obligates the state to provide free and compulsory quality education to children of the age group 5 to 16 years."The State shall provide free and compulsory education to all children of the age of five to sixteen years in such a manner as may be determined by law".</p>
+    </div>
+    <div class="thumbnail">
+      <img src="https://4kwallpapers.com/images/walls/thumbs_2t/17525.jpg" alt="wallpaper" class="img-fluid">
     </div>
     
-    <div class="box3 box">
-      <div class="box-content">
-        <h2>beauty</h2>
-        <div class="box-img" style="background-image: url('Fuji_Desktop_Single_image_EBF_1x_v5._SY304_CB573698005_.jpg');"></div>
-      <p>See more</p>
-      </div>
-    </div>
+  </section>
 
-    <div class="box4 box">
-      <div class="box-content">
-        <h2>popcorn</h2>
-        <div class="box-img" style="background-image: url('819MBC3jXIL._AC_UL320_.jpg');"></div>
-      <p>See more</p>
-      </div>
+  <section class="section sec-Left">
+    <div class="paras">
+    <p class="sectionTag text-big">History</p>
+    <p class="sectionsubTag text-small">In Pakistan, gender discrimination in education occurs among the poorest households.Only 18% of Pakistani women have received 10 years or more of schooling.Among other criticisms the Pakistani education system faces is the gender disparity in enrollment levels. However, in recent years some progress has been made in trying to fix this problem. In 1990–91, the female to male ratio (F/M ratio) of enrollment was 0.47 for primary level of education. It reached to 0.74 in 1999–2000, showing the F/M ratio has improved by 57.44% within the decade.</p>
     </div>
-  
-    <div class="box5 box">
-      <div class="box-content">
-        <h2>watches</h2>
-        <div class="box-img" style="background-image: url('71dnsOkJRyL._AC_UL320_.jpg');"></div>
-      <p>See more</p>
-      </div>
+    <div class="thumbnail">
+      <img src="https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg" alt="wallpaper" class="img-fluid">
     </div>
-    
-    <div class="box6 box">
-      <div class="box-content">
-        <h2>Smartphones</h2>
-        <div class="box-img" style="background-image: url('41vU1u8DZXL._AC_UY218_.jpg');"></div>
-      <p>See more</p>
-      </div>
-    </div>
+  </section>
 
-    <div class="box7 box">
-      <div class="box-content">
-        <h2>apparels</h2>
-        <div class="box-img" style="background-image: url('81I20TCgniL._AC_UL320_.jpg');"></div>
-      <p>See more</p>
-      </div>
+  <section class="section" id="about">
+    <div class="paras">
+    <p class="sectionTag text-big">Achievements</p>
+    <p class="sectionsubTag text-small">Abdus Salam was a Pakistani theoretical physicist and Nobel laureate in physics for his work on the electroweak unification of the electromagnetic and weak forces. Salam, Sheldon Glashow and Steven Weinberg shared the 1979 Nobel prize for this work. Salam holds the distinction of being the first Pakistani to receive the Nobel Prize in any field. Salam heavily contributed to the rise of Pakistani physics to the Physics community in the world</p>
     </div>
-    
-   <div class="box8 box">
-    <div class="box-content">
-      <h2>kitchens</h2>
-      <div class="box-img" style="background-image: url('81uA+IVnJcL._AC_UL320_.jpg');"></div>
-    <p>See more</p>
+    <div class="thumbnail">
+      <img src="https://wallup.net/wp-content/uploads/2019/05/10/237093-nature-mountain-forest-landscape-fog-lake-ultrahd-4k-wallpaper.jpg" alt="wallpaper" class="img-fluid">
     </div>
-   </div>
+  </section>
 
-  </div>
+  <section class="contact" id="contact">
+    <h2 class="text-centre">Contact us</h2>
+    <div class="form">
+      <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+      <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your Phone">
+      <input class="form-input" type="text" name="email" id="email" placeholder="Enter your Email">
+      <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+      <button class="btn btn-sm btn-dark">Submit</button>
+      
+    </div>
+  </section>
 
   <footer>
-<div class="foot-panel1">
-  Back to top
-</div>
-
-<div class="foot-panel2">
-  <uL>
-    <p>Get to know Us</p>
-    <a>Careers</a>
-    <a>Blog</a>
-    <a>About Amazon</a>
-    <a>Investor Devices</a>
-    <a>Amazon Relations</a>
-    <a>Amazon science</a>
-  </uL>
-
-  <uL>
-    <p>Get to know Us</p>
-    <a>Careers</a>
-    <a>Blog</a>
-    <a>About Amazon</a>
-    <a>Investor Devices</a>
-    <a>Amazon Relations</a>
-    <a>Amazon science</a>
-  </uL>
-
-  <uL>
-    <p>Get to know Us</p>
-    <a>Careers</a>
-    <a>Blog</a>
-    <a>About Amazon</a>
-    <a>Investor Devices</a>
-    <a>Amazon Relations</a>
-    <a>Amazon science</a>
-  </uL>
-
-  <uL>
-    <p>Get to know Us</p>
-    <a>Careers</a>
-    <a>Blog</a>
-    <a>About Amazon</a>
-    <a>Investor Devices</a>
-    <a>Amazon Relations</a>
-    <a>Amazon science</a>
-  </uL>
-
-
-</div>
-
-<div class="foot-panel3">
-  <div class="logo"></div>
-</div>
-
-<div class="foot-panel4">
-  <div class="pages">
-    <a>Conditions of use</a>
-    <a>Privacy Notice</a>
-    <a>Your Ads Choices</a>
-  </div>
-
-  <div class="copyright">
-    © 1996-2024, Amazon.com, Inc. or its affiliates
-  </div>
-
-</div>
+    <p class="text-footer background">
+    copyright &copy; 2024 www.iEducate.com - All rights reserved
+    </p>
   </footer>
-
-
-
-
-
+<script src="app.js"></script>
 </body>
 
 </html> 

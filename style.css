@@ -1,224 +1,246 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 * {
     margin: 0;
-    font-family: Arial;
-    border: border-box;
-
-} 
-.navbar {
-    height: 70px;
-    background-color: #0f1111;
-    color: white;
-    display: flex;  
-    align-items: center;
-    justify-content: space-evenly;
+    padding: 0;
 }
-.nav-logo {
-    height: 50px;
-    width: 140px;
+html {
+    scroll-behavior: smooth;
 }
 .logo {
-    background-image: url("images\ \(2\).jfif");
-    background-size: cover;
-    
-    height: 50px;
-    width: 140px;
-    
-}
-.border {
-    border: 1px solid transparent;
-}
-.border:hover {
-    border: 1px solid white;
-}
-.add-first {
-    color: #cccccc;
-    font-size: 0.85rem;
-    margin-left: 15px;
-}
-.add-second {
-    font-size: 1rem;
-    margin-left: 3px;
-}
-.add-icon {
-    display: flex;
-    align-items: center;
-}
-.nav-search {
-    display: flex;
-    justify-content: space-evenly;
-    
-    width: 620px;
-    height: 40px;
-    border-radius: 4px;
-}
-.nav-search:hover {
-    border: 2px solid orange;
-} 
-    
-
-.search-select {
-    background-color: #f3f3f3;
-    width: 50px;
-    text-align: center;
-    
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    border: none;
-}
-.search-input {
-    width: 100%;
-    font-size: 1rem;
-    border: none;
-}
-.search-icon {
-    width: 45px;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    background-color: rgb(218, 140, 23);
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    color: #000;
 }
-span {
-    font-size: 0.7rem;
-    border: 1px solid transparent;
+.logo img {
+    width: 25%;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 5px;
 }
-.nav-second {
-    font-size: 0.85rem;
-    font-weight: 700;
-}
-.nav-cart i {
-    font-size: 30px;
-}
-.nav-cart {
-    font-size: 0.85rem;
-    font-weight: 700;
-}
-.panel {
-    height: 40px;
-    background-color: #222f3d;
+.navbar {
     display: flex;
-    color: white;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+    
 }
-.panel-ops p {
-    display: inline;
-    margin-left: 15px;
-}
-.panel-ops {
+.nav-list {
     width: 70%;
-    font-size: 0.85rem;
-}
-.panel-deals {
-    font-size: 0.9rem;
-    font-weight: 700;
-}
-.hero-section {
-    background-image: url(hero.photo.png.jpg.jpg);
-    background-size: cover;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.hero-msg {
-    background-color: white;
-    color: black;
-    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 0.85rem;
-    width: 80%; margin-bottom: 25px;
 }
-.hero-msg a {
-    color: #007185;
-    
+.nav-list li {
+list-style: none;
+padding: 26px 30px;
 }
-.shop-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: #e2e7e6;
+.nav-list li a {
+text-decoration: none;
+color: white;
+font-size: 19px;
+font-family: "Ubuntu", system-ui; 
 }
-.box {
-    /* border: 2px solid black; */
-    height: 400px;
-    width: 23%;
-    background-color: white;
-    padding: 20px 0px 15px;
-    margin-top: 15px;
+.nav-list li a:hover {
+    color: rgb(197, 194, 194);
 }
-.box-img {
-    height: 300px;
-    background-size: cover;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.box-content {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-.box-content p {
-    color: #007185;
-}
-footer {
-    margin-top: 15px;
-}
-.foot-panel1 {
-    background-color: #37475a;
-    color: white;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.85rem;
-}
-.foot-panel2 {
-    background-color: #222f3d;
-    color: white;
-    height: 300px;
-    display: flex;
-    justify-content: space-evenly;
-}
-ul {
-    margin-top: 20px;
-}
-    
 
-ul a {
-    display: block;
-    font-size: 0.85rem;
-    margin-top: 10px;
-    color: #dddddd;
+.right-nav {
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
 }
-.foot-panel3 {
-    background-color: #222f3d;
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background {
+    background: rgba(0, 0, 0, 0.7) url(https://www.timeoutdubai.com/cloud/timeoutdubai/2022/02/18/Burj-Khalifa.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection {
+    height: 135vh;
+}
+.box-main {
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+max-width: 50%;
+margin:  auto ;
+height: 85%;
+
+}
+.firsthalf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf {
+    width: 30%;
+}
+.secondhalf img {
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+}
+.text-big {
+    font-size: 41px;
+}
+.text-small {
+    font-size: 18px;
+}
+.btn {
+    padding: 8px 20px;
+    margin: 7px 2px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
     color: white;
-    border-top: 0.5px solid white;
-    height: 70px;
+    cursor: pointer;
+    font-family: "Ubuntu", system-ui;
+    font-size: 20px;
+}
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.btn-dark {
+    color: black;
+    border: 2px solid gray;
+}
+.section {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: "Ubuntu", system-ui;
+    padding: 30px;
+}
+.sec-Left {
+flex-direction: row-reverse;
+}
+.paras {
+    padding: 0px 65px;
+}
+.sectionsubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sectionTag {
+    padding: 16px 0;
+}
+.thumbnail img {
+    width: 250px;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+.contact {
+    background-color: #f6f5f4;
+    height: 833px;
+}
+.text-centre {
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Ubuntu", system-ui;
+    font-size: 35px;
+}
+.form {
+    max-width: 500px;
+    margin: 25px auto;
+}
+.form-input {
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'ubunto', sans-serif;
     display: flex;
     justify-content: center;
-}
-.foot-panel4 {
-    background-color: #0f1111;
     color: white;
-    height: 80px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
-.pages {
-    font-size: 0.7rem;
-    text-align: center;
-    padding-top: 25px;
+.burger {
+    display: none;
+ position: absolute;
+ cursor: pointer;
+ right: 5%;
+ top: 15px;
 }
-.copyright {
-    padding-top: 5px;
-    font-size: 0.7rem;
-    text-align: center;
+.line {
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1130px){
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        height: 480px;
+        flex-direction: column;
+        transition: all 0.7s ease-in-out;
+    }
+    #search {
+        width: 80%;
+    }
+    .right-nav {
+        text-align: center;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .firstsection {
+        height: 90vh;
+    }
+    .section {
+        
+        flex-direction: column-reverse;
+    }
+    .text-big {
+        text-align: center;
+    }
+    .text-small {
+        text-align: center;
+    }
+    .button {
+        text-align: center;
+    }
+    .secondhalf {
+        text-align: center;
+    }
+    .paras {
+        padding: 0px;
+    }
+  
 }
